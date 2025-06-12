@@ -16,6 +16,9 @@ export const metadata: Metadata = {
 
 // #db66ed #e68257 #f0ea3e
 
+// color picker #f77707, #fc9003
+// color picker #ffd9ed, #fac4b1, #fad4c8, #facec8
+
 export default function RootLayout({
   children,
 }: Readonly<{
