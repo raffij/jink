@@ -5,6 +5,7 @@ import "./globals.css";
 const ebGaramondSans = Permanent_Marker({
   variable: "--font-eb-garamond",
   weight: '400',
+  subsets: ['latin'],
   
 });
 
