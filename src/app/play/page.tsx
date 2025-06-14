@@ -17,7 +17,7 @@ export default function Home() {
           <p>
             <i>Coming soon</i>
           </p>
-        </> : <div className="p-5" onClick={handleClick}>
+        </> : <div className="p-5" onClick={handleClick} className="cursor-pointer">
           <img
             src="/sitting1.png"
             className="w-full max-w-[600px] m-auto select-none block md:hidden"
