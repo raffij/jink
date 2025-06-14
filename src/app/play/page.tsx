@@ -13,8 +13,12 @@ export default function Home() {
 
   return (
     <main className="flex flex-col min-h-dvh justify-center items-center text-center">
-      <div onClick={handleImageChange}>
-        <img src={images[currentImage]} className="max-w-[600px] m-auto p-5" alt="Jink Bakery and Deli - Coming soon" />
+      <div onClick={handleImageChange} className="p-5">
+        <img
+          src={images[currentImage]}
+          className="w-full max-w-[600px] m-auto select-none"
+          alt="Jink Bakery and Deli - Coming soon"
+        />
       </div>
     </main>
   );
