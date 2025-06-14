@@ -6,17 +6,22 @@ export default function Home() {
   const [showComingSoon, setShowComingSoon] = useState(false);
 
   const handleClick = () => {
-    setShowComingSoon(true);
+    setShowComingSoon(s => !s);
   };
 
   return (
-    <main className="flex flex-col min-h-dvh justify-center items-center text-center">
-      {showComingSoon ?
+    <main
+      className="flex flex-col min-h-dvh justify-center items-center text-center cursor-pointer p-5"
+      onClick={handleClick}
+    >
+      {showComingSoon ? (
         <>
           <p>
             <i>Coming soon</i>
           </p>
-        </> : <div className="p-5" onClick={handleClick} className="cursor-pointer">
+        </>
+      ) : (
+        <>
           <img
             src="/sitting1.png"
             className="w-full max-w-[600px] m-auto select-none block md:hidden"
@@ -27,8 +32,8 @@ export default function Home() {
             className="w-full max-w-[600px] m-auto select-none hidden md:block"
             alt="Jink Bakery and Deli - Coming soon"
           />
-        </div>
-    }  
+        </>
+      )}
     </main>
   );
 }
