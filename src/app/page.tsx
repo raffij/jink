@@ -16,7 +16,7 @@ export default function Home() {
     >
       {showComingSoon ? (
         <>
-          <p>
+          <p className="md:text-4xl">
             <i>Coming soon</i>
           </p>
         </>
