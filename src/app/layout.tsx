@@ -10,8 +10,8 @@ const ebGaramondSans = Permanent_Marker({
 });
 
 export const metadata: Metadata = {
-  title: "Jink Jink Bakery + Deli 🐾✨",
-  description: "Organic micro-bakery in St Leonards on Sea, Baked delights + much more!",
+  title: "Jink Bakery + Deli 🐾✨",
+  description: "Organic micro-bakery in St Leonards on Sea. Baked delights + much more!",
 };
 
 export default function RootLayout({
