@@ -25,12 +25,12 @@ export default function Home() {
           <img
             src="/sitting1.png"
             className="w-full max-w-[600px] m-auto select-none block md:hidden"
-            alt="Jink Bakery and Deli - Coming soon"
+            alt="Jink Bakery + Deli 🐾✨ | Organic micro-bakery in St Leonards on Sea | Baked delights + much more!"
           />
           <img
             src="/sleeping1.png"
             className="w-auto max-h-[750px] m-auto select-none hidden md:block"
-            alt="Jink Bakery and Deli - Coming soon"
+            alt="Jink Bakery + Deli 🐾✨ | Organic micro-bakery in St Leonards on Sea | Baked delights + much more!"
           />
         </>
       )}
